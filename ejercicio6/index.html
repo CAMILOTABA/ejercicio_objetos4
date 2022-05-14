@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicios javascript 6
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">	
+</head>
+<body>
+	<style>
+		* {
+			font-family: sans-serif;
+		}
+		textarea {
+			padding: 8px;
+			border: 1px solid #ddd;
+			width: 400px;
+			min-height: 100px;
+		}
+		label{
+			display: block;
+			font-weight: bold;
+		}
+	</style>
+	<div>
+		<label for="contador">Contador de caracteres:</label>
+		<textarea name="contador" id="contador" onpaste="contarcaracteres();" onkeyup="contarcaracteres();"></textarea>
+		<div id="res">0 caractere/s</div>
+		
+	</div>
+
+	<script type="text/javascript" src="ct.js"></script>
+</body>
+</html>
+
+
+
+
+
+
